@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(Variables.CalculationOfCourierDelivery(100, 10, 10));	
+		Console.WriteLine(Variables.BankDeposiRates(200));
 		}
 	}
 }

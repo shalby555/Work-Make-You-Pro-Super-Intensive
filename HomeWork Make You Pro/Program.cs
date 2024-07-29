@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-		Console.WriteLine(Variables.BankDeposiRates(200));
+		Array.BestEmployee(12,30,58,35);
 		}
 	}
 }

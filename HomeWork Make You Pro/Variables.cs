@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,7 +22,8 @@ namespace HomeWork_Make_You_Pro
 		    b = a * 9 / 100 * 12;
 		    c = a * 10 / 100 * 18;
 			
-		}
+			return a;return b;return c;
+		} 
 	}
 	
 }

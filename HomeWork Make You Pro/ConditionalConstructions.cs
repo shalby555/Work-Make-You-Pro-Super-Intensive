@@ -9,7 +9,7 @@ namespace HomeWork_Make_You_Pro
 {
 	public static class ConditionalConstructions
 	{
-		public static EmployeeBonus(int a, int b)
+		public static int EmployeeBonus(int a, int b)
 		{
 			if (a < b)
 			{
@@ -19,7 +19,25 @@ namespace HomeWork_Make_You_Pro
 			{
 				int result = (a * 10 / 100);
             }
-			return result;
+			
+		}
+
+		public static int DiscountCard (int a, int b,int c)
+		{
+			if (a >= 60)
+
+			{
+				Console.WriteLine("Скидка предоставляется");
+			}
+			else if (b >= 4 && c >= 5000)
+			{
+				Console.WriteLine("Скидка предоставляется");
+			}
+			else
+			{
+				Console.WriteLine("Скидка не предоставляется");
+			}
+			return
 		}
 	}
 }

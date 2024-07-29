@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-		Array.BestEmployee(12,30,58,35);
+		Array.
 		}
 	}
 }

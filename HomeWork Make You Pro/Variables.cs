@@ -17,9 +17,9 @@ namespace HomeWork_Make_You_Pro
 		}
 		public static int BankDepositeRates(int a)
 		{
-			int b = a; int c = a;
+			double b = a; int c = a;
 			a = a * 8 / 100 * 9;
-		    b = a * 9 / 100 * 12;
+		    b = a * 9.5 / 100 * 12;
 		    c = a * 10 / 100 * 18;
 			
 			return a;return b;return c;

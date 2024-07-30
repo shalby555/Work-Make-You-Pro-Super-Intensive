@@ -8,14 +8,14 @@ namespace HomeWork_Make_You_Pro
 {
 	public static class Cycles
 	{
-		public static int MathematicalAnalysis(int n)
+		public static List<int> MathematicalAnalysis(int n)
 		{
+			List<int> result = new List<int>();	
             for (int i = n; i <= 1000; i += n)
 			{
-				Console.WriteLine(i);
-				return i;
-
-			}
+			     result.Add(i);
+            }
+			return result;
 		}
 
 		public static int BankDiposit(int m, int y, int p)
@@ -24,9 +24,8 @@ namespace HomeWork_Make_You_Pro
 			{
 				m += m * p / 100;
 			}
-			Console.WriteLine(m);
+			
 			return m;
-
 		}
 
 

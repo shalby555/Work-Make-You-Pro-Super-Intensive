@@ -16,6 +16,10 @@ namespace ZOO
 		public string SoundAnAnimal { get; set; }
         public Animals1()
 		{
+			Name = Name;
+			Age = Age;
+			
+
 
 		}
 		public void Sound()

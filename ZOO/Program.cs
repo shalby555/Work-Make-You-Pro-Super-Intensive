@@ -4,7 +4,8 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			Animals1 tigr = new Animals1();
+			tigr.Name = "Shirhan";
 		}
 	}
 }

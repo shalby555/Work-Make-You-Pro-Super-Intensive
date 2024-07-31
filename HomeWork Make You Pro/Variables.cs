@@ -15,14 +15,15 @@ namespace HomeWork_Make_You_Pro
 			int result = a * c + b;
 			return result;
 		}
-		public static int BankDepositeRates(int a)
+		public static int DepositAmount(int a )
 		{
-			double b = a; int c = a;
+			double b = a;
+			int c = a;
 			a = a * 8 / 100 * 9;
 		    b = a * 9.5 / 100 * 12;
 		    c = a * 10 / 100 * 18;
 			
-			return a;return b;return c;
+			return a;
 		} 
 	}
 	

@@ -8,12 +8,9 @@ namespace HomeWork_Make_You_Pro
 {
 	public static class Arrays
 	{
-		public static int BestEmployee(int a, int b, int c, int f)
-
-		{
-			int[] ratings = new int[] { a, b, c, f };
-
-			int max = ratings[0];
+		public static int BestEmployee(int[] ratings)
+		{ 
+            int max = ratings[0];
 
 			for (int i = 0; i < ratings.Length; i++)
 			{
@@ -22,9 +19,8 @@ namespace HomeWork_Make_You_Pro
 					max = ratings[i];
 				}
 			}
-			Console.WriteLine(max);
 
-			return max;
+             return max;
 		}
 
 	}

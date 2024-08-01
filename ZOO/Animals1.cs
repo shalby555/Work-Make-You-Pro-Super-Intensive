@@ -14,13 +14,10 @@ namespace ZOO
 		public int AreaPerIndividual { get;private set; }
 		public string Feeds { get;private set; }
 		public string SoundAnAnimal { get; set; }
-        public Animals1()
+        public Animals1 (string name,int age)
 		{
-			Name = Name;
-			Age = Age;
-			
-
-
+			Name = name;
+			Age = age;
 		}
 		public void Sound()
 		{

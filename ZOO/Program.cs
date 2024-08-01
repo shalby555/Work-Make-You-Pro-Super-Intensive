@@ -1,17 +1,10 @@
-﻿namespace ZOO
-{
-	internal class Program
-	{
-		static void Main(string[] args)
-		{
-			Animals1 tigr = new Animals1();
-			tigr.Name = "Shirhan";
-			tigr.Age = 10;
-			tigr.Sound();
+﻿using ZOO;
 
-			Animals1 tigr1 = new Animals1();
-			tigr.Name = "Simba";
-			tigr.Sound();
-		}
-	}
-}
+
+Animals1 tigr = new Animals1("Shirhan",10);
+tigr.Sound();
+
+Animals1 tigr1 = new Animals1("Simba",5);
+tigr.Sound();
+	
+	
